@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://www.coolapk.com/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>酷安整理贴@Mr_Bocchi</title>
+</head>
+<body>
+
+  <header>
+    <img src="./img/header-logo.png" alt="Logo" class="header-logo">
+    <h1 class="header-title">酷安整理贴</h1>
+    <h2 class="header-name">@Mr_Bocchi</h1>
+  </header>
+  
+
+<div class="background-box">
+  <div class="posts-container" id="posts"></div>
+</div>
+
+<script>
+  const postsContainer = document.getElementById('posts');
+
+  // 创建筛选框
+  const filterContainer = document.createElement('div');
+  filterContainer.style.display = 'flex';
+  filterContainer.style.justifyContent = 'flex-end';
+  filterContainer.style.marginBottom = '20px';
+
+  const filterSelect = document.createElement('select');
+  filterSelect.style.background = 'rgba(255, 255, 255, 0.5)';
+  filterSelect.style.border = 'none';
+  filterSelect.style.borderRadius = '10px';
+  filterSelect.style.padding = '8px 12px';
+  filterSelect.style.fontSize = '1em';
+  filterSelect.style.cursor = 'pointer';
+  filterSelect.innerHTML = `
+    <option value="all">全部</option>
+    <option value="内部版">内部版</option>
+    <option value="公开版">公开版</option>
+    <option value="教程">教程</option>
+    <option value="其他">其他</option>
+  `;
+  filterContainer.appendChild(filterSelect);
+
+  // 把筛选框插入到posts容器前面
+  const backgroundBox = document.querySelector('.background-box');
+  backgroundBox.insertBefore(filterContainer, postsContainer);
+
+  let allPosts = []; // 保存所有帖子数据
+
+  fetch('posts.json?v=' + Date.now())
+    .then(response => response.json())
+    .then(posts => {
+      allPosts = posts;
+      renderPosts(posts);
+    })
+    .catch(err => {
+      console.error('加载帖子失败', err);
+    });
+
+  function renderPosts(posts) {
+    postsContainer.innerHTML = '';
+    posts.forEach(post => {
+      const postElement = document.createElement("div");
+      postElement.className = "post";
+      postElement.style.opacity = '0';
+      postElement.style.transition = 'opacity 0.5s ease, transform 0.3s ease';;
+
+      postElement.innerHTML = `
+        <div class="post-title">
+          ${post.title}
+        </div>
+        <div class="post-header">
+          <span>${post.time || "未知时间"}</span>
+          <div class="post-tags">
+            ${post.tags ? post.tags.map(tag => `<span>#${tag}</span>`).join('') : ''}
+          </div>
+        </div>
+        <div class="post-description">${post.description.replace(/\n/g, '<br>')}</div>
+      `;
+
+      postElement.addEventListener('click', (event) => {
+        if (event.altKey) {
+          event.stopPropagation();
+          return;
+        }
+        if (!post.link) {
+          return;
+        }
+        window.open(post.link, '_blank');
+      });
+
+      postsContainer.appendChild(postElement);
+
+      // 动画渐显
+      requestAnimationFrame(() => {
+        postElement.style.opacity = '1';
+      });
+    });
+  }
+
+  // 筛选逻辑
+  filterSelect.addEventListener('change', () => {
+    const value = filterSelect.value;
+    let filteredPosts;
+    if (value === 'all') {
+      filteredPosts = allPosts;
+    } else {
+      filteredPosts = allPosts.filter(post => post.tags && post.tags.includes(value));
+    }
+    renderPosts(filteredPosts);
+  });
+</script>
+
+</body>
+</html>

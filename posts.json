@@ -1,0 +1,153 @@
+[
+    {
+        "title": "【置顶】酷安整理贴说明",
+        "description": "因为改过的控制中心太多了，时间久了版本有点乱，就想搞一篇能筛选的整理贴。\n本来打算在酷安开这篇整理贴的，但是酷安的图文编辑次数有限，而且关键是删文章会扣经验，就把这篇文章托管在第三方了。\n用 GPT 简单改了个前端，能用就行。\n\n本人在酷安目前主要是玩粮厂的 iOS 高仿，力争做全站最高仿的控制中心；偶尔也会做些小设计、写些小代码。\n筛选在右上角，可以按自己需求查找。\n★特殊说明：\n· 内部版通常指以酷安@异界情人的底包二改而来的版本，优化会更好，但由于底包付费不便外传，我会附上相应版本的文件名称方便查找；\n· 公开版通常指以国外大佬 EGLife 的底包二改而来的版本，由于其混淆过，我不会去改它的播放器二级界面，我会直接在酷安文末放上下载链接。\n\n查找你想要的版本时，可以先以内部版或公开版筛选，然后看标题下的 Tag（你要的小米系统版本与 iOS 版本）。\n总之别看正标题了，太乱了[狗头保命]。",
+        "link": "",
+        "time": "2025-04-27",
+        "tags": []
+    },
+    {
+        "title": "",
+        "description": "",
+        "link": "",
+        "time": "========== 我是分隔线 ==========",
+        "tags": []
+    },
+    {
+        "title": "【置顶动态】改版组件/桌面安装后黑屏解决方法",
+        "description": "祝各位永远不砖。",
+        "link": "https://www.coolapk.com/feed/60370049?shareKey=MzVhMTFmODdiM2FmNjgwZTY0OTY~&shareUid=22430622&shareFrom=com.coolapk.market_13.4.1",
+        "time": "2024-11-7",
+        "tags": [
+            "教程",
+            "其他"
+        ]
+    },
+    {
+        "title": "iOS18控制中心团队改版（更新）",
+        "description": "学会了高级关机菜单添加与修改方法；然后就是 OS2 比 OS1 多了个亮度二级菜单。\n其他照例，全站最优质的高仿播放器二级菜单，等等。\n文件名：OS2 iOS18 byM.B成品V3.APK",
+        "link": "https://www.coolapk.com/feed/64292740?shareKey=ZTk2ZTBjNzYwMmMxNjgwZTYxZDY~&shareUid=22430622&shareFrom=com.coolapk.market_13.4.1",
+        "time": "2025-4-27",
+        "tags": [
+            "内部版",
+            "HyperOS2",
+            "iOS18"
+        ]
+    },
+    {
+        "title": "仿 iOS 键盘",
+        "description": "基于百度输入法皮肤。",
+        "link": "https://www.coolapk.com/feed/62822448?shareKey=YjM0MjRiYTkwM2JhNjgwZTYwMmU~&shareUid=22430622&shareFrom=com.coolapk.market_13.4.1",
+        "time": "2025-2-18",
+        "tags": [
+            "其他"
+        ]
+    },
+    {
+        "title": "小米徕卡水印转高斯模糊V1.0",
+        "description": "一个 Python 小项目。\n有酷友移植到了安卓上：https://www.coolapk.com/feed/63367951 （我还没试过[捂脸]）",
+        "link": "https://www.coolapk.com/feed/62112312?shareKey=YWVjZTE0NTA2YjY2NjgwZTVmNTE~&shareUid=22430622&shareFrom=com.coolapk.market_13.4.1",
+        "time": "2025-1-14",
+        "tags": [
+            "其他"
+        ]
+    },
+    {
+        "title": "HyperOS完美高仿iOS18控制中心",
+        "description": "做了挺久的。",
+        "link": "https://www.coolapk.com/feed/60277890?shareKey=ZDhhOGFjZjI4ZWU2NjgwZTVkZmQ~&shareUid=22430622&shareFrom=com.coolapk.market_13.4.1",
+        "time": "2024-11-5",
+        "tags": [
+            "公开版",
+            "HyperOS",
+            "iOS18"
+        ]
+    },
+    {
+        "title": "异界情人iOS18mod版2号界面 优化",
+        "description": "OS1 的内部 iOS18 高仿，没什么需要额外说明的。\n要说的话，这版播放器二级界面改的挺像且兼顾日用，不像 iOS17 的高仿不能日用（iOS17 没有设备列表）。\n文件名：[iOS18至尊Ⅲ版]二改By@Mr_Bocchi.APK（也是三个版本，具体看动态说明）",
+        "link": "https://www.coolapk.com/feed/59684493?shareKey=Mzg5MzYwNjVjMDE2NjgwZTVhMWY~&shareUid=22430622&shareFrom=com.coolapk.market_13.4.1",
+        "time": "2024-10-12",
+        "tags": [
+            "内部版",
+            "HyperOS",
+            "iOS18"
+        ]
+    },
+    {
+        "title": "高仿iOS控制中心 第三弹",
+        "description": "本图文中的【4.3日用版】确实是不错的一个版本，是我自认为 iOS17 中最好看的一个日用版。\n其余两个高仿版已被后来的【终极高仿版】全方面碾压，不推荐再使用。\n那段时间还做了不少内部版本但都没有发动态。这里统一整理一下推荐的版本：\n· 日用：[4.3日用版]Update2.5二改By@Mr_Bocchi.APK\n· 日用白色：[5.10日用白色版]二改By@Mr_Bocchi.APK\n· 日用Pad：[5.18平板版]二改By@Mr_Bocchi.jpg（这里做了三个版本，区分WiFi平板和蜂窝平板）\n· 高仿：[终极高仿版3.0]二改By@Mr_Bocchi.APK",
+        "link": "https://www.coolapk.com/feed/55754797?shareKey=MDQ1M2M1MDRhYTJiNjgwZTU0NjA~&shareUid=22430622&shareFrom=com.coolapk.market_13.4.1",
+        "time": "2024-5-9",
+        "tags": [
+            "内部版",
+            "HyperOS",
+            "iOS17"
+        ]
+    },
+    {
+        "title": "挑战全站最强HyperOS高仿iOS，真像素级还原",
+        "description": "高仿教程。这应该是我目前写过耗时最长的图文了。内容也基本都没有过时。\n可以补充的内容我列举几个：\n· 键盘有完全替代品，详见 2025-2-18 动态；\n· 通知中心解决方案可能会有更好的替代品，但人家不提供成品包；\n· HyperCeiler 更新后可能增加部分新功能可用于优化高仿，但本人未整理；\n· 主题可能会有更好的选择，在 iOS17 上小慈学长的主题确实是最像的，但 iOS18 的话个人感觉嗷嗷程的会更好一些（都是付费包）。因为我 iOS18 的教程基本是不打算做了（毕竟只改一个控制中心就行），感兴趣的可以去了解一下。",
+        "link": "https://www.coolapk.com/feed/54524369?shareKey=NTBiNDdhNzc2YmM2NjgwZTI4ZDg~&shareUid=22430622&shareFrom=com.coolapk.market_13.4.1",
+        "time": "2024-3-21",
+        "tags": [
+            "教程",
+            "HyperOS",
+            "iOS17"
+        ]
+    },
+    {
+        "title": "高仿iOS控制中心2.0（2.1）",
+        "description": "这个版本是四版齐发，包含 HyperOS 与 MIUI 的版本，各分成高仿版与日用版（其实两者唯一区别就是 Warning 样式的磁贴改了个底色，现在看来全都是些不值得提起的修改处）。",
+        "link": "https://www.coolapk.com/feed/53817553?shareKey=M2Q1MzgzODcyMDRiNjgwZTI2Yjk~&shareUid=22430622&shareFrom=com.coolapk.market_13.4.1",
+        "time": "2024-02-23",
+        "tags": [
+            "公开版",
+            "MIUI14",
+            "HyperOS",
+            "iOS17"
+        ]
+    },
+    {
+        "title": "【不推荐】仿iOS控制中心（系统界面组件）",
+        "description": "最早学二改的版本，在 EGLife 的基础上只改了一个专注模式的汉化就发帖了。因为这里的文本是硬编码，所以还顺带学了一下 Adobe Illustrator。\n这个文本一做出来就被二改圈征用了，到现在好多版本的“专注模式”用的依旧是这段 svg 代码。\n此版使用的话，已经早就过时了，不建议再用了。",
+        "link": "https://www.coolapk.com/feed/53264765?shareKey=YmE0ZGE1OTU4Zjc2NjgwZTI1NmM~&shareUid=22430622&shareFrom=com.coolapk.market_13.4.1",
+        "time": "2024-01-29",
+        "tags": [
+            "公开版",
+            "HyperOS",
+            "iOS17"
+        ]
+    },
+    {
+        "title": "小米12系列 酷安人均图手机壳",
+        "description": "",
+        "link": "https://www.coolapk.com/feed/52350753?shareKey=NWU1ZTQ2NjI0MmI0NjgwZTI1NTY~&shareUid=22430622&shareFrom=com.coolapk.market_13.4.1",
+        "time": "2023-12-24",
+        "tags": [
+            "其他"
+        ]
+    },
+    {
+        "title": "ROOT极限仿iOS之《MIUI14→iOS17》篇",
+        "description": "高仿教程。大部分模块还能用，小部分由于有更好的模块作替代品，有点过时了。做个参考完全是没问题的。",
+        "link": "https://www.coolapk.com/feed/52171896?shareKey=ZWFmYTljMTM2NWE5NjgwZGY5YTc~&shareUid=22430622&shareFrom=com.coolapk.market_13.4.1",
+        "time": "2023-12-17",
+        "tags": [
+            "教程",
+            "MIUI14",
+            "iOS17"
+        ]
+    },
+    {
+        "title": "ROOT极限仿iOS之《MIUI13→iOS17》篇",
+        "description": "高仿教程，部分内容已过时，内容仅作参考。",
+        "link": "https://www.coolapk.com/feed/51978950?shareKey=ODYyZDVlMDExNWQ5NjgwZGU2ZmQ~&shareUid=22430622&shareFrom=com.coolapk.market_13.4.1",
+        "time": "2023-12-10",
+        "tags": [
+            "教程",
+            "MIUI13",
+            "iOS17"
+        ]
+    }
+]
